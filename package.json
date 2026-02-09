@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:backend": "cd backend && npm run build",
+    "build": "npx vite build",
+    "build:backend": "cd ../backend && npm run build",
     "build:all": "npm run build:backend && npm run build",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit",
-    "build:vercel": "vite build",
+    "build:vercel": "npx vite build",
     "deploy": "vercel --prod"
   },
   "dependencies": {
