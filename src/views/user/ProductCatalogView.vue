@@ -336,12 +336,10 @@
                 <div v-if="paymentMethod === 'gcash'" class="form-group">
                   <label class="form-label">GCash Number</label>
                   <input
-                    v-model="paymentReference"
-                    type="tel"
-                    placeholder="09XXXXXXXXX"
+                    type="text"
+                    value="09165283222"
                     class="form-input"
-                    pattern="09[0-9]{9}"
-                    required
+                    readonly
                   />
                 </div>
                 
